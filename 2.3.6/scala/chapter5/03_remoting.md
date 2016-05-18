@@ -135,7 +135,7 @@ val ref = system.actorOf(Props[SampleActor].
 
 ###生命周期和故障恢复模式
 
-![](../images/association_lifecycle1.png)
+![](../images/association_lifecycle.png)
 
 每个远程系统的链接可以在上面所示的四个状态之一。对一个给定``Address``的远程系统，在任何通信发生之前，其链接状态为``Idle``。第一次，一条消息试图发送到远程系统，或一个呼入连接被接受，则链接状态变为``Active``，表明两个系统有消息来发送或接收，并且目前没有发生失败。当通信发生故障和两个系统之间失去连接时，链接变为``Gated``。
 
