@@ -19,7 +19,7 @@
 
 这是测试指挥示意性概述。
 
-.. image:: ../images/akka-remote-testconductor.png
+![](../images/akka-remote-testconductor.png)
 
 测试导体服务器负责协调屏障，并向对他们采取行动的测试导体客户端发送命令，例如限制从/到另一个客户端的网络流量。有关可能操作的详细信息见 ``akka.remote.testconductor.Conductor`` API 文档。
 
